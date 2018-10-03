@@ -4,10 +4,10 @@ public class BankAccount{
 	private int accountID;
 	private String password;
 
-	public BankAccount(int accountID, double balance, String password) {
-		balance = balance;
-		accountID = accountID;
-		password = password;
+	public BankAccount(int newaccountID, double newbalance, String newpassword) {
+		balance = newbalance;
+		accountID = newaccountID;
+		password = newpassword;
 	}
 
 	public double getBalance() {
