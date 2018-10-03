@@ -10,13 +10,17 @@ public class BankAccount{
 		password = newPassword;
 	}
 
-	public double getbalance() {
+	public double getBalance() {
 		return balance;
 }
 
-	public int getaccountID() {
+	public int getAccountID() {
 		return accountID
 } 
+
+	public void setPassword(String newPass) {
+		password = newPass;
+}
 
 
 	public String toString() {
