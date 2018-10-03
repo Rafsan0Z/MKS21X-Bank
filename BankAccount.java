@@ -4,10 +4,10 @@ public class BankAccount{
 	private int accountID;
 	private String password;
 
-	public BankAccount(double newbalance, int newAccountID, String newPassword) {
-		balance = newbalance;
-		accountID = newAccountID;
-		password = newPassword;
+	public BankAccount(int accountID, double balance, String password) {
+		balance = balance;
+		accountID = accountID;
+		password = password;
 	}
 
 	public double getBalance() {
@@ -15,7 +15,7 @@ public class BankAccount{
 }
 
 	public int getAccountID() {
-		return accountID
+		return accountID;
 } 
 
 	public void setPassword(String newPass) {
@@ -28,7 +28,7 @@ public class BankAccount{
 	}
 
 	public boolean deposit(double amount) {
-		if (amount < 0.0) {
+		if (amount < 0.00) {
 			return false;
 		}
 		else {
