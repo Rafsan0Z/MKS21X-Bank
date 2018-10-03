@@ -10,6 +10,10 @@ public class BankAccount{
 		password = newPassword;
 	}
 
+	public String toString() {
+		return "" +  accountID + "\t" + balance;
+	}
+
 }
 		
 
